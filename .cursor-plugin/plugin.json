@@ -1,0 +1,14 @@
+{
+  "name": "wispr-flow",
+  "description": "Find meeting notes, transcripts, and calendar context from Wispr Flow.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Wispr Flow",
+    "email": "support@wisprflow.ai"
+  },
+  "homepage": "https://wisprflow.ai",
+  "repository": "https://github.com/Wispr-AI/wispr-flow-plugin",
+  "keywords": ["meetings", "notes", "transcripts", "calendar", "dictation", "productivity", "mcp"],
+  "logo": "assets/logo.svg",
+  "mcpServers": ".mcp.json"
+}
