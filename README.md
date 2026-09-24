@@ -34,23 +34,24 @@ JSON config, for clients that take one:
 This repository is the plugin package for marketplaces that install from Git (Cursor, Grok Build). It contains no
 server code.
 
-## Tools
+## What you can do
 
-Every tool is read-only. Tools return data from your own Wispr Flow account, plus notes that have been shared
-with you through a Wispr Flow share link.
+Ask your AI about your Wispr Flow data, for example:
 
-- **Meetings** — `search_meetings`, `get_meeting`, `get_meeting_by_calendar_id`, `list_meeting_series`,
-  `list_upcoming_meetings`, `get_upcoming_meeting`, `resolve_share_link`
-- **Notes** — `search_scratchpad_notes`, `get_scratchpad_note`
-- **Calendar** — `search_calendar_events`, `get_calendar_event`, `resolve_calendar_link`
-- **Account** — `get_account_info`
-- **Contacts** (where available on your account) — `get_meeting_participants_enriched`, `get_participant_contacts`
+- "What did we decide in yesterday's pricing meeting?"
+- "Summarize my calls with Acme this month and list open action items."
+- "Prep me for my next meeting."
+- "Find my scratchpad note on the hiring plan."
+
+The server can search and read your meetings and transcripts, scratchpad notes, and calendar events, plus notes
+shared with you through a Wispr Flow share link. Access is read-only: it never creates, edits, or deletes anything.
 
 ## Requirements
 
 - A Wispr Flow account
-- Meeting recorder enabled in Wispr Flow for meeting notes and transcripts
+- Notetaker with Cloud Sync turned on, for meeting notes and transcripts
 - Enterprise accounts: your workspace admin must have the Wispr Flow MCP connector enabled (and Scratchpad access, for the notes tools)
+- Not available for HIPAA-covered accounts
 
 ## Support
 
