@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "wispr-flow": {
+      "serverUrl": "https://api.wisprflow.ai/connect/mcp"
+    }
+  }
+}

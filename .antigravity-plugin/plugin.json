@@ -1,0 +1,22 @@
+{
+  "name": "wispr-flow",
+  "displayName": "Wispr Flow",
+  "description": "Search and read your Wispr Flow meeting notes, transcripts, scratchpad notes, and calendar events. Read-only access to your own account.",
+  "version": "1.0.0",
+  "logo": "assets/logo-antigravity.png",
+  "suggestedPrompts": [
+    "What did we decide in yesterday's pricing meeting?",
+    "Summarize my calls with Acme this month and list open action items.",
+    "Prep me for my next meeting."
+  ],
+  "category": "Productivity",
+  "author": {
+    "name": "Wispr Flow",
+    "email": "support@wisprflow.ai",
+    "url": "https://wisprflow.ai"
+  },
+  "homepage": "https://wisprflow.ai",
+  "repository": "https://github.com/Wispr-AI/wispr-flow-plugin",
+  "keywords": ["meetings", "notes", "transcripts", "calendar", "dictation", "productivity", "mcp"],
+  "mcpServers": "./mcp_config.json"
+}
