@@ -15,6 +15,7 @@ account (OAuth). No API key needed.
 | **Gemini** | Enable Wispr Flow in [Gemini Apps](https://gemini.google.com/apps) |
 | **Cursor** | Install "Wispr Flow" from the Cursor plugin marketplace |
 | **Grok Build** | Install "Wispr Flow" from the Grok Build plugin marketplace |
+| **Antigravity** | Install "Wispr Flow" from Customizations → Plugins, or use **+ Install from URL** with this repository |
 | **Claude Code** | `claude mcp add --transport http wispr-flow https://api.wisprflow.ai/connect/mcp` |
 | **Any other MCP client** | Add the server URL above as a remote (HTTP) MCP server |
 
@@ -31,8 +32,8 @@ JSON config, for clients that take one:
 }
 ```
 
-This repository is the plugin package for marketplaces that install from Git (Cursor, Grok Build). It contains no
-server code.
+This repository is the plugin package for marketplaces that install from Git (Cursor, Grok Build, Antigravity). It
+contains no server code.
 
 ## What you can do
 
